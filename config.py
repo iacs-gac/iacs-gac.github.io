@@ -71,7 +71,7 @@ TAG_SAVE_AS = ''
 
 INDEX_SAVE_AS = 'pages/materials.html'
 
-THEME_STATIC_DIR = 'style'
+THEME_STATIC_DIR = 'themes/static'
 
 DELETE_OUTPUT_DIRECTORY = True
 
