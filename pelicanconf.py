@@ -13,7 +13,10 @@ TIMEZONE = 'America/New_York'
 
 DEFAULT_LANG = 'en'
 
-THEME = '/themes/iacs'
+THEME = './themes/iacs'
+
+# Just for testing
+COLOR = '#000000'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
