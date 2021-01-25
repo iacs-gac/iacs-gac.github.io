@@ -62,6 +62,15 @@ img {
   border: none;
 }
 
+.dropbtn a:hover {
+  background-color: #ddd;
+  color: #1e1e1e;
+  text-decoration: none;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
 .dropdown {
   position: relative;
   display: inline-block;
@@ -107,7 +116,8 @@ img {
   /* Set the fixed height of the footer here */
   height: 90px;
   line-height: 60px; /* Vertically center the text there */
-  background-color: #c90016;
+  background-color: #1e1e1e;
+  color: #ddd;
   font-family: "Roboto Condensed", Helvetica, sans-serif;
 }
 
