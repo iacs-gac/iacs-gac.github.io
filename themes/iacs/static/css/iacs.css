@@ -43,10 +43,18 @@ img {
 }
 
 .navbar-nav .nav-item .nav-link {
-  color: #ffffff;
+  color: #a51c30;
 }
 
 .dropbtn {
+  background-color: #a51c30;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropbtn a {
   background-color: #a51c30;
   color: white;
   padding: 16px;
@@ -87,6 +95,7 @@ img {
 
 .dropdown:hover .dropbtn {
   background-color: #ddd;
+  color: #1e1e1e;
 }
 
 .input-group .form-control {
@@ -174,7 +183,7 @@ table thead {
 
 /* Custom */
 #content.container {
-    max-width: 75rem;
+    max-width: 50rem;
 }
 nav div.container, div.container.title, footer div.container,
 .container.syllabus, .container.materials, .container.modules, .container.resources, .container.index,
