@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.add-seriff {
+  font-family: 'Merriweather', serif;
+}
+
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+.single-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 85vh;
+}
