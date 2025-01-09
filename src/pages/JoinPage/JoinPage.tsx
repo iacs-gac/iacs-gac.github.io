@@ -1,11 +1,10 @@
 import { GlobalFooter } from "../../util/components/Nav/GlobalFooter";
-import { Box, Button, Text } from "grommet";
+import {  Text } from "grommet";
 
 import { IRootProps } from "../../util";
 import "./style.css"
 import { COL_WIDTH } from "../../util/styles";
-import { LinkNext } from "grommet-icons";
-import { Link } from "react-router-dom";
+
 export function JoinPage(props: IRootProps) {
     return <div >
         <div className="rel-cont">
