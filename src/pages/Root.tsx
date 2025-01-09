@@ -33,7 +33,7 @@ export function Root() {
         id="scroller"
     >
         <Box fill>
-            <HashRouter basename="/" >
+            <HashRouter  >
              <ScrollToTop/>
                 <LogoUpperLeft />
                 <MenuUpperRight />
