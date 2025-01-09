@@ -10,10 +10,10 @@ export function LandingPage(props: IRootProps) {
     return <div>
         <div className="rel-cont ">
             <div 
-                className="add-seriff fade-up header-text "
+                className="fade-up header-text "
             >
                 <div className="p-10L-10R">
-                    <div className="header-image-text" ><Text size="3.5rem">Harvard Graduate Advisory Committee</Text></div>
+                    <div className="header-image-text add-seriff " ><Text size="3.5rem">{props.width<COL_WIDTH? "Graduate Advisory Committee": "Harvard Graduate Advisory Committee"}</Text></div>
                     <br />
                     <div className="header-image-subtext">
                     Founded in Summer 2020, represents Harvard’s professional master’s

@@ -9,10 +9,10 @@ export function ContactPage(props: IRootProps) {
     return <div >
         <div className="rel-cont">
             <div
-                className="add-seriff fade-up header-text "
+                className="fade-up header-text "
             >
                 <div className="p-10L-10R">
-                    <div className="header-image-text" >Get In Touch</div>
+                    <div className="header-image-text add-seriff " >Get In Touch</div>
                     <br />
                     <div className="header-image-subtext">Various ways to connect with us.</div>
                 </div>

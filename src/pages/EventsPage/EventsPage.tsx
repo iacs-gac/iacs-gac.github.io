@@ -6,10 +6,10 @@ export function EventsPage(props: IRootProps) {
     return <div >
         <div className="rel-cont">
             <div
-                className="add-seriff fade-up header-text "
+                className="fade-up header-text "
             >
                 <div  className="p-10L-10R">
-                    <div className="header-image-text" >Calendar</div>
+                    <div className="header-image-text add-seriff " >Calendar</div>
                     <br />
                     <div className="header-image-subtext">See what's on the horizon.</div>
                 </div>

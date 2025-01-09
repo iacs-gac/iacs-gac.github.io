@@ -28,7 +28,9 @@ export function GlobalFooter(props: IRootProps) {
             role="none"
         >
             <Box direction="row" gap="small">
-                <Link to="/"><img src="/images/Harvard_University_logo.svg.png" alt="logo" id="hlogo-footer" /></Link>
+                <Link to="/">{props.width<COL_WIDTH?
+                <img src="/images/hlogo.png" alt="logo" id="hlogo-footer-2" />:
+                <img src="/images/Harvard_University_logo.svg.png" alt="logo" id="hlogo-footer" />}</Link>
             </Box>
             <Box direction="row" gap="xxsmall" justify="center">
                 <Anchor

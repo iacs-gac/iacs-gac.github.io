@@ -10,11 +10,11 @@ export function JoinPage(props: IRootProps) {
         <div className="rel-cont">
             <div
             
-                className="add-seriff fade-up header-text "
+                className="fade-up header-text "
             >
                 <div className="p-10L-10R">
-                    <div className="header-image-text" >Join</div>
-                    <br />
+                    <div className="header-image-text add-seriff " >Join</div>
+                    <br /><br/>
                     <div className="header-image-subtext">
                         GAC meetings are held <b>every Tuesday at 4-5PM in SEC 1.316 Seminar Room.</b>
                     </div>
