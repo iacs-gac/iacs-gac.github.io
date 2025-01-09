@@ -8,24 +8,27 @@ import { Link } from "react-router-dom"
 
 export function LandingPage(props: IRootProps) {
     return <div>
-        <div className="rel-cont">
+        <div className="rel-cont ">
             <div
                 className="add-seriff fade-up header-text "
             >
-                <div>
-                    <div id="lp-header-title-cont"><Text id="lp-header-title" size="xxlarge">Harvard Graduate Advisory Committee</Text></div>
-                    <div id='lp-header-text'> Founded in Summer 2020, represents Harvard’s professional master’s
+                <div className="p-10L-10R">
+                    <div className="header-image-text" ><Text size="3.5rem">Harvard Graduate Advisory Committee</Text></div>
+                    <br />
+                    <div className="header-image-subtext">
+                    Founded in Summer 2020, represents Harvard’s professional master’s
                         students and alumni, working with staff to promote inclusion, design diversity strategies,
-                        amplify underrepresented voices, and offer leadership opportunities in diversity within academia.</div>
+                        amplify underrepresented voices, and offer leadership opportunities in diversity within academia.
+                    </div>
+                   
                 </div>
             </div>
 
             <div className="faded-image header-container">
-                <img alt="landing header" src="/images/campus.png" className="header-image" />
+                <img alt="calendar header" src="/images/campus4.png" className="header-image" />
             </div>
-
         </div>
-
+     
         <div className="fade-up fade-up-delay">
             <table id="lp-table" className="p-15L-15R">
                 {

@@ -9,9 +9,10 @@ export function JoinPage(props: IRootProps) {
     return <div >
         <div className="rel-cont">
             <div
+            
                 className="add-seriff fade-up header-text "
             >
-                <div>
+                <div className="p-10L-10R">
                     <div className="header-image-text" >Join</div>
                     <br />
                     <div className="header-image-subtext">

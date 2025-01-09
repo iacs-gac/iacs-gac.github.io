@@ -10,7 +10,7 @@ export function AboutPage(props: IRootProps) {
             <div
                 className="add-seriff fade-up header-text "
             >
-                <div>
+                <div  className="p-10L-10R">
                     <div className="header-image-text" >About</div>
                     <br />
                     <div className="header-image-subtext">Learn more about our aims.</div>

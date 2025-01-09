@@ -1,29 +1,5 @@
-.lp-header {
-    background: linear-gradient(to bottom, #b3b3b3, #ffffff);
-    height: 55vh;
-    min-height: 440px;
-    text-align: center;
-    display: flex;
-    justify-content: center; 
-    align-items: center;  
-  
-}
 
-#lp-header-title {
-    font-size: 3.5rem;
-    font-family: 'Merriweather', serif;
-    font-weight: bold;
-   
-}
-#lp-header-title-cont {
-    padding-bottom: 15px;
-}
 
-#lp-header-text {
-    font-size: 1.6rem;
-    margin-left: 20%;
-    margin-right: 20%;
-}
 
 
 #lp-table{

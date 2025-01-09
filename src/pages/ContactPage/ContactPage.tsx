@@ -11,7 +11,7 @@ export function ContactPage(props: IRootProps) {
             <div
                 className="add-seriff fade-up header-text "
             >
-                <div>
+                <div className="p-10L-10R">
                     <div className="header-image-text" >Get In Touch</div>
                     <br />
                     <div className="header-image-subtext">Various ways to connect with us.</div>
