@@ -25,7 +25,7 @@ export function LandingPage(props: IRootProps) {
             </div>
 
             <div className="faded-image header-container" >
-                <img alt="calendar header" src="/images/campus4.png" className="header-image" />
+                <img alt="calendar header" src="/images/campus.png" className="header-image" />
             </div>
         </div>
      
