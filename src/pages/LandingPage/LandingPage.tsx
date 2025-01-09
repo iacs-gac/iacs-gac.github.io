@@ -30,7 +30,7 @@ export function LandingPage(props: IRootProps) {
         </div>
      
         <div className="fade-up fade-up-delay" >
-            <table id="lp-table" className="p-15L-15R">
+            <table id="lp-table" >
                 {
                     props.width < COL_WIDTH * 1.35 ?
                         <tbody>

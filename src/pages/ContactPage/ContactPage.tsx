@@ -25,7 +25,7 @@ export function ContactPage(props: IRootProps) {
         </div>
 
         <div className="fade-up fade-up-delay">
-            <table id="contact-table" className="p-15L-15R">
+            <table id="contact-table" >
                 {
                     props.width < COL_WIDTH*1.35 ?
                         <tbody>

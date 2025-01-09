@@ -31,7 +31,7 @@ export function JoinPage(props: IRootProps) {
             </div>
         </div>
         <div className="fade-up fade-up-delay">
-            <table id="join-table" className="p-15L-15R">
+            <table id="join-table">
                 {
                     props.width < COL_WIDTH * 1.35 ?
                         <tbody>

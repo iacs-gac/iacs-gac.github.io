@@ -1,6 +1,8 @@
 #contact-table{
     width: 100%;
     padding-bottom: 10vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
 }
 
 #contact-table td{
