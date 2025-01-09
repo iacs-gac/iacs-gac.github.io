@@ -9,7 +9,7 @@ import { Link } from "react-router-dom"
 export function LandingPage(props: IRootProps) {
     return <div>
         <div className="rel-cont ">
-            <div
+            <div 
                 className="add-seriff fade-up header-text "
             >
                 <div className="p-10L-10R">
@@ -24,12 +24,12 @@ export function LandingPage(props: IRootProps) {
                 </div>
             </div>
 
-            <div className="faded-image header-container">
+            <div className="faded-image header-container" >
                 <img alt="calendar header" src="/images/campus4.png" className="header-image" />
             </div>
         </div>
      
-        <div className="fade-up fade-up-delay">
+        <div className="fade-up fade-up-delay" >
             <table id="lp-table" className="p-15L-15R">
                 {
                     props.width < COL_WIDTH * 1.35 ?
