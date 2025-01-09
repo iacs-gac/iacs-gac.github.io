@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Box, grommet, Grommet } from "grommet";
 import { deepMerge } from "grommet/utils";
-import { BrowserRouter, HashRouter, Route, Routes } from "react-router-dom";
+import {  HashRouter, Route, Routes } from "react-router-dom";
 import { LandingPage } from "./LandingPage/LandingPage";
 import { theme } from "../util/styles/theme";
 import { Page404 } from "../util/components/Page404/Page404";
