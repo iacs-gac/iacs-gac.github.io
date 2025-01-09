@@ -80,7 +80,7 @@ function AboutDesc() {
     return <><div className="pad-b-10"><Text size="2.3rem" className="add-seriff cp-title ">About Us</Text></div>
         <div className="pad-b-10"><Text size="1.3rem" >Learn more about our organizations history and goals.</Text></div>
         <div className="pad-b-10">
-            <Link to="/about">
+            <Link to="about">
                 <Box direction="row" >
                     <Button><LinkNext color="brand" size="medium" /></Button>&nbsp;<Text size='medium' color="brand"><b>Go to page</b></Text>
                 </Box>
@@ -100,7 +100,7 @@ function EventsDesc() {
         <div className="pad-b-10"><Text size="1.3rem" >See what's coming up on our calendar. 
             <br/><br/>Events include small group dinners, alumni speakers, parties, and more!</Text></div>
         <div className="pad-b-10">
-            <Link to="/calendar">
+            <Link to="calendar">
                 <Box direction="row" >
                     <Button><LinkNext color="brand" size="medium" /></Button>&nbsp;<Text size='medium' color="brand"><b>Go to page</b></Text>
                 </Box>
@@ -119,7 +119,7 @@ function ContactDesc() {
     return <><div className="pad-b-10"><Text size="2.3rem" className="add-seriff cp-title ">Contact Us</Text></div>
         <div className="pad-b-10"><Text size="1.3rem" >Suggestions? Need Help? Get in touch. </Text></div>
         <div className="pad-b-10">
-            <Link to="/contact">
+            <Link to="contact">
                 <Box direction="row" >
                     <Button><LinkNext color="brand" size="medium" /></Button>&nbsp;<Text size='medium' color="brand"><b>Go to page</b></Text>
                 </Box>
@@ -138,7 +138,7 @@ function JoinDesc() {
     return <><div className="pad-b-10"><Text size="2.3rem" className="add-seriff cp-title ">Join Us</Text></div>
         <div className="pad-b-10"><Text size="1.3rem" >Curious about how you can get involved?</Text></div>
         <div className="pad-b-10">
-            <Link to="/join">
+            <Link to="join">
                 <Box direction="row" >
                     <Button><LinkNext color="brand" size="medium" /></Button>&nbsp;<Text size='medium' color="brand"><b>Go to page</b></Text>
                 </Box>
