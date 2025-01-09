@@ -2,3 +2,16 @@
     width: 200px;
     padding: 10px;
 }
+
+#hlogo-footer {
+    width: 150px;
+}
+
+.footer-content{
+    text-align: left;
+}
+
+#top-footer {
+    padding-left: 20%;
+    padding-right: 20%;
+}

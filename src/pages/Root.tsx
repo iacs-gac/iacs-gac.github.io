@@ -8,6 +8,10 @@ import { Page404 } from "../util/components/Page404/Page404";
 import { LogoUpperLeft } from "../util/components/Nav/LogoUpperLeft";
 import { MenuUpperRight } from "../util/components/Nav/MenuUpperRight";
 import { AboutPage } from "./AboutPage/AboutPage";
+import { EventsPage } from "./EventsPage/EventsPage";
+import { ContactPage } from "./ContactPage/ContactPage";
+import ScrollToTop from "../util/components/ScrollToTop";
+import { JoinPage } from "./JoinPage/JoinPage";
 
 export function Root() {
     /* state management */
@@ -26,16 +30,20 @@ export function Root() {
     return <Grommet
         full
         theme={deepMerge(grommet, theme)}
+        id="scroller"
     >
         <Box fill>
             <BrowserRouter basename="/" >
+             <ScrollToTop/>
                 <LogoUpperLeft />
                 <MenuUpperRight />
                 <Routes>
                     <Route path="/" element={< LandingPage width={width} />} />
                     <Route path="/about" element={< AboutPage width={width} />} />
-
-                    <Route path="/*" element={<Page404 />} />
+                    <Route path="/calendar" element={< EventsPage width={width} />} />
+                    <Route path="/contact" element={< ContactPage width={width} />} />
+                    <Route path="/join" element={< JoinPage width={width} />} />
+                    <Route path="/*" element={<Page404 width={width} />} />
                 </Routes>
             </BrowserRouter>
         </Box>

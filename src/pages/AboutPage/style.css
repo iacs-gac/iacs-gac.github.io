@@ -1,3 +1,12 @@
-.about-page{
-    padding: 10vw;
+.about-text-body {
+  padding: 20px;
+  font-size: larger;
+}
+
+.about-text-body li {
+  padding-bottom: 10px;
+}
+
+#gac-img {
+  margin: 25px;
 }

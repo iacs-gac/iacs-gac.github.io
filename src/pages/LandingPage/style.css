@@ -10,7 +10,7 @@
 }
 
 #lp-header-title {
-    font-size: 2.8rem;
+    font-size: 3.5rem;
     font-family: 'Merriweather', serif;
     font-weight: bold;
    
@@ -20,28 +20,20 @@
 }
 
 #lp-header-text {
-    font-size: 1.3rem;
+    font-size: 1.6rem;
     margin-left: 20%;
     margin-right: 20%;
 }
 
 
-   @keyframes fadeInUp {
-    0% {
-      opacity: 0;
-      transform: translateY(30px);
-    }
-    100% {
-      opacity: 1; 
-      transform: translateY(0); 
-    }
-  }
+#lp-table{
+    width: 100%;
+    padding-bottom: 10vh;
+}
 
-  .fade-up {
-    opacity: 0; 
-    animation: fadeInUp 1s ease-out forwards; 
-  }
+#lp-table td{
+    padding: 20px;
+}
 
-  .fade-up-delay {
-    animation-delay: 0.5s; 
-  }
+
+

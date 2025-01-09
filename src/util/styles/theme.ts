@@ -6,6 +6,7 @@ export const theme = {
       colors: {
         logo_red:"#902b36",
         burgundy:"#A41034",
+        "brand-light": "#c9778c", 
         beige0:"#f1efee",
         beige1: "#cbc3bb",
         beige2: "#cec3ba",
