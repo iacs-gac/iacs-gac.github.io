@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Box, grommet, Grommet } from "grommet";
 import { deepMerge } from "grommet/utils";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, HashRouter, Route, Routes } from "react-router-dom";
 import { LandingPage } from "./LandingPage/LandingPage";
 import { theme } from "../util/styles/theme";
 import { Page404 } from "../util/components/Page404/Page404";
@@ -33,7 +33,7 @@ export function Root() {
         id="scroller"
     >
         <Box fill>
-            <BrowserRouter basename="/" >
+            <HashRouter basename="/" >
              <ScrollToTop/>
                 <LogoUpperLeft />
                 <MenuUpperRight />
@@ -45,7 +45,7 @@ export function Root() {
                     <Route path="/join" element={< JoinPage width={width} />} />
                     <Route path="/*" element={<Page404 width={width} />} />
                 </Routes>
-            </BrowserRouter>
+            </HashRouter>
         </Box>
 
     </Grommet>
