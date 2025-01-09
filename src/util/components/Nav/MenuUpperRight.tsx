@@ -25,25 +25,25 @@ export function MenuUpperRight() {
                     {
                         label: <Text size='large'>About</Text>,
                         onClick: () => {
-                            navigate('about')
+                            navigate('/about')
                         }
                     },
                     {
                         label: <Text size='large'>Calendar and Events</Text>,
                         onClick: () => {
-                            navigate('calendar')
+                            navigate('/calendar')
                         }
                     },
                     {
                         label: <Text size='large'>Contact Us</Text>,
                         onClick: () => {
-                            navigate('contact')
+                            navigate('/contact')
                         }
                     },
                     {
                         label: <Text size='large'>Join</Text>,
                         onClick: () => {
-                            navigate('join')
+                            navigate('/join')
                         }
                     },
                 ]}

@@ -33,6 +33,7 @@
 
 #lp-table td{
     padding: 20px;
+    min-width: 35vw;
 }
 
 

@@ -66,9 +66,9 @@ function SiteContent() {
         </Text>
         <Box>
             <Link to='/'><Anchor color={'brand-light'}>Home</Anchor></Link>
-            <Link to='about'><Anchor color={'brand-light'}>About</Anchor></Link>
-            <Link to='calendar'><Anchor color={'brand-light'}>Calendar</Anchor></Link>
-            <Link to='join'><Anchor color={'brand-light'}>Join</Anchor></Link>
+            <Link to='/about'><Anchor color={'brand-light'}>About</Anchor></Link>
+            <Link to='/calendar'><Anchor color={'brand-light'}>Calendar</Anchor></Link>
+            <Link to='/join'><Anchor color={'brand-light'}>Join</Anchor></Link>
 
         </Box>
 
@@ -81,7 +81,7 @@ function GetInTouch() {
             Get In Touch
         </Text>
         <Box>
-        <Link to='contact'><Anchor color={'brand-light'}>Contact</Anchor></Link>
+        <Link to='/contact'><Anchor color={'brand-light'}>Contact</Anchor></Link>
             <Anchor color={'brand-light'} href="https://forms.gle/YPUbP1bHLampv22J7">Join Mailing List</Anchor>
             <Anchor color={'brand-light'} href="mailto:harvardGAC@gmail.com" >Contact Us Directly</Anchor>
             <Anchor href="https://www.instagram.com/harvard.gac/" color={'brand-light'} >Instagram</Anchor>
