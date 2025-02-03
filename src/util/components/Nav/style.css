@@ -2,13 +2,16 @@
     width: 200px;
     padding: 10px;
 }
-
+#hlogo_short {
+    width: 50px;
+    padding: 10px;
+}
 #hlogo-footer {
     width: 150px;
 }
 
 #hlogo-footer-2{
-    width:50px;
+    width:40px;
 }
 
 .footer-content{

@@ -35,7 +35,7 @@ export function Root() {
         <Box fill>
             <HashRouter  >
              <ScrollToTop/>
-                <LogoUpperLeft />
+                <LogoUpperLeft width={width} />
                 <MenuUpperRight />
                 <Routes>
                     <Route path="/" element={< LandingPage width={width} />} />
