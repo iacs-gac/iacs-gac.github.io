@@ -4,6 +4,7 @@ import { Text } from "grommet";
 import { IRootProps } from "../../util";
 import "./style.css"
 import { COL_WIDTH } from "../../util/styles";
+import { MeetingInfo } from "../../util/components/MeetingInfo";
 
 export function JoinPage(props: IRootProps) {
     return <div >
@@ -16,7 +17,7 @@ export function JoinPage(props: IRootProps) {
                     <div className="header-image-text add-seriff " >Join</div>
                     <br /><br/>
                     <div className="header-image-subtext">
-                        GAC meetings are held <b>every Tuesday at 4-5PM in SEC 1.316 Seminar Room.</b>
+                        <MeetingInfo/>
                     </div>
                     <br />
                     <div className="header-image-subtext fade-up">Below we have outlined some of the things that GAC works on.

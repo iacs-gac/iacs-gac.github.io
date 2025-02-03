@@ -1,6 +1,7 @@
 import { GlobalFooter } from "../../util/components/Nav/GlobalFooter";
 
 import { IRootProps } from "../../util";
+import { MeetingInfo } from "../../util/components/MeetingInfo";
 
 export function EventsPage(props: IRootProps) {
     return <div >
@@ -12,6 +13,8 @@ export function EventsPage(props: IRootProps) {
                     <div className="header-image-text add-seriff " >Calendar</div>
                     <br />
                     <div className="header-image-subtext">See what's on the horizon.</div>
+                    <br/>
+                    <div className="header-image-subtext"><MeetingInfo/></div>
                 </div>
             </div>
 

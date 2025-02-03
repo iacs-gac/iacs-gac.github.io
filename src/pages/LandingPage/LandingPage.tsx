@@ -5,6 +5,7 @@ import { IRootProps } from "../../util";
 import { COL_WIDTH } from "../../util/styles";
 import { LinkNext } from "grommet-icons";
 import { Link } from "react-router-dom"
+import { MeetingInfo } from "../../util/components/MeetingInfo";
 
 export function LandingPage(props: IRootProps) {
     return <div>
@@ -16,10 +17,16 @@ export function LandingPage(props: IRootProps) {
                     <div className="header-image-text add-seriff " ><Text size="3.5rem">{props.width<COL_WIDTH? "Graduate Advisory Committee": "Harvard Graduate Advisory Committee"}</Text></div>
                     <br />
                     <div className="header-image-subtext">
-                    Founded in Summer 2020, represents Harvard’s professional master’s
+                        {props.width<COL_WIDTH?
+                        <span></span>
+                        :<span>Founded in Summer 2020, represents Harvard’s professional master’s
                         students and alumni, working with staff to promote inclusion, design diversity strategies,
-                        amplify underrepresented voices, and offer leadership opportunities in diversity within academia.
+                        amplify underrepresented voices, and offer leadership opportunities in diversity within academia.</span>}
+                    
                     </div>
+                    <br />
+                    <div className="header-image-subtext"><MeetingInfo/></div>
+                    
                    
                 </div>
             </div>
