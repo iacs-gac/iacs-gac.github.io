@@ -10,24 +10,23 @@ import { MeetingInfo } from "../../util/components/MeetingInfo";
 export function LandingPage(props: IRootProps) {
     return <div>
         <div className="rel-cont ">
-            <div 
+            <div
                 className="fade-up header-text "
             >
                 <div className="p-10L-10R">
-                    <div className="header-image-text add-seriff " ><Text size="3.5rem">{props.width<COL_WIDTH? "Graduate Advisory Committee": "Harvard Graduate Advisory Committee"}</Text></div>
+                    <div className="header-image-text add-seriff " ><Text size="3.5rem">{props.width < COL_WIDTH ? "Graduate Advisory Committee" : "Harvard Graduate Advisory Committee"}</Text></div>
                     <br />
                     <div className="header-image-subtext">
-                        {props.width<COL_WIDTH?
-                        <span></span>
-                        :<span>Founded in Summer 2020, represents Harvard’s professional master’s
-                        students and alumni, working with staff to promote inclusion, design diversity strategies,
-                        amplify underrepresented voices, and offer leadership opportunities in diversity within academia.</span>}
-                    
+                        {props.width < COL_WIDTH ?
+                            <span></span>
+                            : <span>Founded in Summer 2020, represents Harvard’s professional master’s
+                                students and alumni, working with staff to promote inclusion, design diversity strategies,
+                                amplify underrepresented voices, and offer leadership opportunities in diversity within academia.</span>}
                     </div>
                     <br />
-                    <div className="header-image-subtext"><MeetingInfo/></div>
-                    
-                   
+                    <div className="header-image-subtext"><MeetingInfo /></div>
+
+
                 </div>
             </div>
 
@@ -35,39 +34,39 @@ export function LandingPage(props: IRootProps) {
                 <img alt="calendar header" src="/images/campus.png" className="header-image" />
             </div>
         </div>
-     
+
         <div className="fade-up fade-up-delay" >
             <table id="lp-table" >
                 {
                     props.width < COL_WIDTH * 1.35 ?
                         <tbody>
-                            <tr><td><AboutPic/></td></tr>
-                            <tr><td><AboutDesc/></td></tr>
-                            <tr><td><EventsPic/></td></tr>
-                            <tr><td><EventsDesc/></td></tr>
-                            <tr><td><ContactPic/></td></tr>
-                            <tr><td><ContactDesc/></td></tr>
-                            <tr><td><JoinPic/></td></tr>
-                            <tr><td><JoinDesc/></td></tr>
+                            <tr><td><AboutPic /></td></tr>
+                            <tr><td><AboutDesc /></td></tr>
+                            <tr><td><EventsPic /></td></tr>
+                            <tr><td><EventsDesc /></td></tr>
+                            <tr><td><ContactPic /></td></tr>
+                            <tr><td><ContactDesc /></td></tr>
+                            <tr><td><JoinPic /></td></tr>
+                            <tr><td><JoinDesc /></td></tr>
 
                         </tbody> :
                         <tbody>
                             <tr>
-                                <td><AboutPic/></td>
-                                <td><AboutDesc/></td>
+                                <td><AboutPic /></td>
+                                <td><AboutDesc /></td>
                             </tr>
 
                             <tr>
-                                <td><EventsPic/></td>
-                                <td><EventsDesc/></td>
+                                <td><EventsPic /></td>
+                                <td><EventsDesc /></td>
                             </tr>
                             <tr>
-                                <td><ContactPic/></td>
-                                <td><ContactDesc/></td>
+                                <td><ContactPic /></td>
+                                <td><ContactDesc /></td>
                             </tr>
                             <tr>
-                                <td><JoinPic/></td>
-                                <td><JoinDesc/></td>
+                                <td><JoinPic /></td>
+                                <td><JoinDesc /></td>
                             </tr>
 
                         </tbody>
@@ -107,8 +106,8 @@ function EventsPic() {
 
 function EventsDesc() {
     return <><div className="pad-b-10"><Text size="2.3rem" className="add-seriff cp-title ">Upcoming Events</Text></div>
-        <div className="pad-b-10"><Text size="1.3rem" >See what's coming up on our calendar. 
-            <br/><br/>Events include small group dinners, alumni speakers, parties, and more!</Text></div>
+        <div className="pad-b-10"><Text size="1.3rem" >See what's coming up on our calendar.
+            <br /><br />Events include small group dinners, alumni speakers, parties, and more!</Text></div>
         <div className="pad-b-10">
             <Link to="/calendar">
                 <Box direction="row" >
