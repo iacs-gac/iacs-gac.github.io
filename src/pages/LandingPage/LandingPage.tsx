@@ -14,7 +14,7 @@ export function LandingPage(props: IRootProps) {
                 className="fade-up header-text "
             >
                 <div className="p-10L-10R">
-                    <div className="header-image-text add-seriff " ><Text size="3.5rem">{props.width < COL_WIDTH ? "Graduate Advisory Committee" : "Harvard Graduate Advisory Committee"}</Text></div>
+                    <div className="header-image-text add-seriff " ><Text size="3.5rem">Harvard Graduate Advisory Committee</Text></div>
                     <br />
                     <div className="header-image-subtext">
                         {props.width < COL_WIDTH ?
